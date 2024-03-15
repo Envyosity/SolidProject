@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamond Dogs Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="MainSolid.html">Solid</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="FormSolid.html">DD's Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="StorySolid.html">Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="EditSolid.html">Edit</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="bg-image"
+      style="
+        background-image: url('DiamondDogs.jpg');
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: cover;
+      "
+    >
+    <div class="text-center d-flex flex-column justify-content-center align-items-center" style="height: 70vh;">
+        <form action="YourePrettyGoodSolid.html" method="post">
+        <div class="mx-auto mb-3">
+          <label for="fcodename" class="form-label">First Codename</label>
+          <input
+            type="text"
+            class="form-control"
+            id="fcodename"
+            placeholder="Revolver"
+            required
+          />
+        </div>
+        <div class="mx-auto mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+            >Second Codename</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="scodename"
+            placeholder="Ocelot"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Sign Me In</button>
+      </div>
+    </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
